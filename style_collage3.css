@@ -20,17 +20,18 @@ html, body {
 }
 
 .sidebar_content{
-    position: absolute;
+    position: fixed;  
     display: grid;
     grid-auto-flow: column; 
     align-items:baseline;
-    left: 0;  
+    top:30%;
     gap: 10pt;
-    transform: rotate(90deg);/* rotate text so it runs bottom-to-top */
+    transform-origin: bottom left;
+    transform: rotate(90deg);
     font-size: 12pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    margin: 0; 
+
 }
 
 .collage_container {
